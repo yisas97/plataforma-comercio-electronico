@@ -1,0 +1,12 @@
+{
+    "name": "plataforma-comercio-electronico",
+    "version": "1.0.0",
+    "description": "Plataforma de comercio electrónico para productores locales",
+    "main": "index.js",
+    "scripts": {
+      "build": "mkdir -p dist && cp index.html dist/",
+      "test": "echo \"No tests configured\""
+    },
+    "author": "",
+    "license": "ISC"
+  }

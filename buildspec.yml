@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+  pre_build:
+    commands:
+      - echo Instalando dependencias...
+      - npm install
+  build:
+    commands:
+      - echo Iniciando build...
+      - npm run build
+  post_build:
+    commands:
+      - echo Build completado
+
+artifacts:
+  files:
+    - index.html
+    - dist/**/*
+    - scripts/**/*
+    - appspec.yml
+  base-directory: '.'
