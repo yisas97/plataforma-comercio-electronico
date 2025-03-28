@@ -4,9 +4,12 @@
     "description": "Plataforma de comercio electrónico para productores locales",
     "main": "index.js",
     "scripts": {
-      "build": "mkdir -p dist && cp index.html dist/",
-      "test": "echo \"No tests configured\""
+        "build": "mkdir -p dist && cp index.html dist/",
+        "test": "echo \"No tests configured\""
     },
     "author": "",
-    "license": "ISC"
-  }
+    "license": "ISC",
+    "dependencies": {
+        "plataforma-comercio-electronico": "file:"
+    }
+}
